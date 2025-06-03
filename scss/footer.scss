@@ -1,0 +1,143 @@
+footer {
+    height: 455px;
+    background-color: #EE4367;
+    padding: 40px;
+
+
+    .logo.footer-logo {
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px #fff;
+        font-family: GillSansReg;
+        font-size: 20px;
+        margin: 0px auto 40px auto;
+
+        span {
+            position: absolute;
+            bottom: -5px;
+            left: -2px;
+            color: #fff;
+        }
+    }
+
+
+
+    .footer-info {
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+        font-family: GillSansReg;
+        font-size: 16px;
+        margin: 46px auto 0 auto;
+
+        p {
+            margin: 0 0 5px 0;
+        }
+    }
+
+
+    .signup {
+        height: 60px;
+        display: flex;
+        margin: 46px auto 0 auto;
+        justify-content: center;
+
+        input {
+            height: 100%;
+            width: 529px;
+            background-color: #f56b88;
+            border: none;
+            color: rgba(238, 67, 103, 1);
+            font-size: 16px;
+            padding-left: 15px;
+        }
+
+        ::placeholder {
+            color: rgba(238, 67, 103, 1);
+        }
+
+        .button {
+            height: 100%;
+            width: 167px;
+            background-color: #ffffff;
+            color: #EE4367;
+            font-family: GillSansReg;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 30.5px;
+        margin-top: 30px;
+    }
+
+    .social-links a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .social-links img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .fineprint {
+        display: flex;
+        justify-content: center;
+        margin-top: 46px;
+        color: #707070;
+        opacity: 0.5;
+        font-size: 12px;
+        font-family: GillSansReg;
+    }
+
+}
+
+
+
+@media (max-width: 815px) {
+    footer {
+        height: auto;
+        min-height: 350px;
+        padding: 30px 0px;
+    }
+
+    .footer-info {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .footer-info p {
+        font-size: 12px;
+    }
+
+    .signup {
+        flex-direction: column;
+        height: auto;
+        margin-top: 30px;
+        width: 100%;
+        padding: 0 15px;
+        align-items: center;
+
+        input {
+            width: 70%;
+            margin-bottom: 10px;
+            border-radius: 0px;
+        }
+
+        .button {
+            width: 70%;
+            border-radius: 0px;
+        }
+    }
+
+}
